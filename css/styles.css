@@ -12,7 +12,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+b {
   margin: 0;
 }
 
@@ -227,7 +228,9 @@ button {
 .price-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
+
 .price-item::before,
 .content-after::after {
   border: 1px solid #0a224a;
@@ -235,6 +238,7 @@ button {
   height: 0px;
   content: "";
 }
+
 .price-text {
   font-size: 32px;
   line-height: 141%;
@@ -268,18 +272,131 @@ button {
   padding-bottom: 100px;
 }
 .bestsellers-container {
+  margin-bottom: 30px;
 }
 .bestsellers-wrapper {
+  display: flex;
+  gap: 24px;
+  width: 1096px;
+  margin: 0 auto;
+}
+.bestsellers-box {
 }
 .bestsellers-img {
+  margin-bottom: 15px;
 }
-.bestsellers-bottom {
+.bestsellers-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 20px;
 }
 .bestsellers-item {
+  height: 266px;
+}
+.bestsellers-bottom {
+  margin-bottom: 10px;
 }
 
 /* #endregion */
-/* display: flex;
-  flex-wrap: wrap;
-  row-gap: 30px;
-  column-gap: 20px; */
+
+/* #region Reviews */
+
+.clients-reviews {
+  padding: 60px 0;
+  background-color: #f7faff;
+}
+.clients-list {
+  display: flex;
+  gap: 24px;
+}
+.clients-item {
+  border-radius: 8px;
+  width: 424px;
+  height: 306px;
+  background-color: #fff;
+  padding: 32px;
+}
+.clients-wrapper {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+.clients-img {
+}
+.clients-box {
+  display: block;
+}
+.clients-caption {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 225%;
+  text-transform: uppercase;
+}
+.clients-text {
+  line-height: 150%;
+}
+
+/* #endregion */
+
+/* #region Newsletter */
+
+.newsletter {
+  padding-top: 100px;
+  padding-bottom: 86px;
+}
+.newsletter-container {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.newsletter-wrapper {
+}
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+}
+.newsletter-title {
+  margin-bottom: 31.06px;
+  text-align: left;
+}
+.newsletter-text {
+  margin-bottom: 20.71px;
+  width: 536px;
+}
+.newsletter-label {
+  margin-bottom: 20.71px;
+}
+.newsletter-input {
+  border: 1px solid #b6b6b6;
+  padding: 11px 20px;
+  width: 536px;
+  height: 51px;
+  font-size: 18px;
+  line-height: 150%;
+  color: #d9d9d9;
+}
+.newsletter-checkbox-label {
+  font-size: 18px;
+  line-height: 150%;
+  color: #7a7a7a;
+}
+.newsletter-checkbox-input {
+}
+.newsletter-btn {
+  width: 224px;
+  height: 51px;
+  font-size: 18px;
+  line-height: 133%;
+  background-color: #0a224a;
+  color: #fff;
+  padding: 0;
+  border: none;
+}
+.newsletter-box {
+}
+.newsletter-img {
+}
+
+/* #endregion */
