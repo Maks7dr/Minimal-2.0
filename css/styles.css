@@ -34,12 +34,106 @@ address {
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  /* max-width: 100%;
+  height: auto; */
 }
 
 button {
   cursor: pointer;
 }
+
+/* #endregion */
+
+/* #region common */
+.container {
+  width: 1320px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+/* #endregion */
+
+/* #region Header */
+
+.header {
+  background-color: #f7faff;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+}
+.logo:hover .logo-fill {
+  fill: #061835;
+}
+.logo-fill {
+  fill: #0a224a;
+}
+
+.header-nav {
+  padding: 28px 0;
+}
+.header-nav-list {
+  display: flex;
+  gap: 30px;
+}
+.header-nav-item {
+}
+.header-nav-item:hover {
+  color: #d9d9d9;
+}
+.header-nav-link {
+}
+
+/* #endregion */
+
+/* #region Hero */
+
+.hero {
+  padding: 64px 0 100px;
+}
+.hero-container {
+  display: flex;
+  gap: 25px;
+  position: relative;
+  align-items: end;
+}
+.hero-title {
+  position: absolute;
+  left: 60px;
+  top: 0;
+  width: 648px;
+  font-size: 50px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.hero-box {
+}
+.hero-img-2 {
+  margin-bottom: 59px;
+}
+.text-btn {
+  margin-top: 30px;
+  width: 224px;
+  height: 50px;
+  background-color: #0a224a;
+  color: #fff;
+  border: none;
+  padding: 0;
+}
+.text-btn:hover {
+  background-color: #061835;
+}
+
+/* #endregion */
+
+/* #region About us */
 
 /* #endregion */

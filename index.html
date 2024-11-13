@@ -22,155 +22,175 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <a href="./index.html">
-        <svg width="128" height="17">
-          <use href="./images/icons.svg#icon-logo"></use>
-        </svg>
-      </a>
-      <nav>
-        <li>
-          <a href="#about-us">About us</a>
-        </li>
-        <li>
-          <a href="#our-products">Our products</a>
-        </li>
-        <li>
-          <a href="#price">Prices</a>
-        </li>
-        <li>
-          <a href="#bestsellers">Bestsellers</a>
-        </li>
-        <li>
-          <a href="#reviews">Reviews </a>
-        </li>
-        <li>
-          <a href="#contacts">Contacts</a>
-        </li>
-      </nav>
+      <div class="header-container container">
+        <a href="./index.html" class="logo">
+          <svg width="128" height="17" class="logo-fill">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a href="#about-us" class="header-nav-link">About us</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#our-products" class="header-nav-link">Our products</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#price" class="header-nav-link">Prices</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#bestsellers" class="header-nav-link">Bestsellers</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#reviews" class="header-nav-link">Reviews </a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#contacts" class="header-nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- Hero -->
     <section class="hero">
-      <h1>Modern and minimalist furniture for you</h1>
-      <img src="./images/hero/image.png" alt="chair" width="310" height="329" />
-      <img
-        src="./images/hero/image-1.png"
-        alt="dressers"
-        width="648"
-        height="530"
-      />
-      <div>
+      <div class="hero-container container">
+        <h1 class="hero-title">Modern and minimalist furniture for you</h1>
         <img
-          src="./images/hero/image-2.png"
-          alt="sofa"
-          width="312"
-          height="337"
+          src="./images/hero/image.png"
+          alt="chair"
+          width="310"
+          height="329"
+          class="hero-img"
         />
+        <img
+          src="./images/hero/image-1.png"
+          alt="dressers"
+          width="648"
+          height="530"
+          class="hero-img-1"
+        />
+        <div class="hero-box">
+          <img
+            src="./images/hero/image-2.png"
+            alt="sofa"
+            width="312"
+            height="337"
+            class="hero-img-2"
+          />
 
-        <p>
-          Add a touch of elegance to your space with handcrafted furniture
-          pieces
-        </p>
-        <button type="button">Subscribe</button>
+          <p class="text">
+            Add a touch of elegance to your space with handcrafted furniture
+            pieces
+          </p>
+          <button type="button" class="text-btn">Subscribe</button>
+        </div>
       </div>
     </section>
     <!-- About us -->
     <section class="about-us" id="about-us">
-      <div>
-        <h2>About us</h2>
-        <h3>Our сraftsmanship: сreating unique handmade furniture</h3>
-        <p>
-          Discover the inspiration behind our modern and minimalist designs, and
-          see how we bring them to life through our skilled craftsmanship.
-        </p>
-        <ul>
-          <li>
-            <h4>5+</h4>
-            <p>Years of experience creating handcrafted furniture</p>
-          </li>
-          <li>
-            <h4>100%</h4>
-            <p>Sustainably sourced materials used in all of our furniture</p>
-          </li>
-          <li>
-            <h4>500+</h4>
-            <p>Unique furniture designs crafted by our skilled artisans</p>
-          </li>
-        </ul>
+      <div class="container">
+        <div>
+          <h2>About us</h2>
+          <h3>Our сraftsmanship: сreating unique handmade furniture</h3>
+          <p>
+            Discover the inspiration behind our modern and minimalist designs,
+            and see how we bring them to life through our skilled craftsmanship.
+          </p>
+          <ul>
+            <li>
+              <h4>5+</h4>
+              <p>Years of experience creating handcrafted furniture</p>
+            </li>
+            <li>
+              <h4>100%</h4>
+              <p>Sustainably sourced materials used in all of our furniture</p>
+            </li>
+            <li>
+              <h4>500+</h4>
+              <p>Unique furniture designs crafted by our skilled artisans</p>
+            </li>
+          </ul>
+        </div>
+        <img
+          src="./images/about us/product-4.png"
+          alt="product"
+          width="536"
+          height="540"
+        />
       </div>
-      <img
-        src="./images/about us/product-4.png"
-        alt="product"
-        width="536"
-        height="540"
-      />
     </section>
     <!-- Price -->
     <section class="price" id="price">
-      <h2>Price</h2>
-      <ul>
-        <li>
-          <p>Chairs</p>
-          <p>from 200$</p>
-        </li>
-        <li>
-          <p>Tables</p>
-          <p>from 250$</p>
-        </li>
-        <li>
-          <p>Dressers</p>
-          <p>from 300$</p>
-        </li>
-        <li>
-          <p>Sofas</p>
-          <p>from 500$</p>
-        </li>
-      </ul>
+      <div class="container">
+        <h2>Price</h2>
+        <ul>
+          <li>
+            <p>Chairs</p>
+            <p>from 200$</p>
+          </li>
+          <li>
+            <p>Tables</p>
+            <p>from 250$</p>
+          </li>
+          <li>
+            <p>Dressers</p>
+            <p>from 300$</p>
+          </li>
+          <li>
+            <p>Sofas</p>
+            <p>from 500$</p>
+          </li>
+        </ul>
+      </div>
     </section>
     <!-- Our products -->
     <section class="our-products" id="our-products">
-      <h2>OUR PRODUCTS</h2>
-      <ul>
-        <li>
-          <img
-            src="./images/our-products/product-5.png"
-            alt="solutions"
-            width="312"
-            height="300"
-          />
-          <p>Minimalist storage solutions</p>
-        </li>
-        <li>
-          <img
-            src="./images/our-products/product-6.png"
-            alt="seating"
-            width="312"
-            height="300"
-          />
-          <p>Handcrafted minimalist seating</p>
-        </li>
-        <li>
-          <img
-            src="./images/our-products/product-7.png"
-            alt="table"
-            width="312"
-            height="300"
-          />
-          <p>Sleek and simple tables</p>
-        </li>
-        <li>
-          <img
-            src="./images/our-products/product-8.png"
-            alt="chair"
-            width="312"
-            height="300"
-          />
-          <p>Minimalist seating for every space</p>
-        </li>
-      </ul>
+      <div class="container">
+        <h2>OUR PRODUCTS</h2>
+        <ul>
+          <li>
+            <img
+              src="./images/our-products/product-5.png"
+              alt="solutions"
+              width="312"
+              height="300"
+            />
+            <p>Minimalist storage solutions</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-products/product-6.png"
+              alt="seating"
+              width="312"
+              height="300"
+            />
+            <p>Handcrafted minimalist seating</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-products/product-7.png"
+              alt="table"
+              width="312"
+              height="300"
+            />
+            <p>Sleek and simple tables</p>
+          </li>
+          <li>
+            <img
+              src="./images/our-products/product-8.png"
+              alt="chair"
+              width="312"
+              height="300"
+            />
+            <p>Minimalist seating for every space</p>
+          </li>
+        </ul>
+      </div>
     </section>
     <!-- Bestsellers -->
     <section class="bestsellers" id="bestsellers">
-      <div>
+      <div class="container">
         <div>
           <h2>Bestsellers</h2>
           <img
@@ -230,7 +250,7 @@
     </section>
     <!-- Clients reviews -->
     <section class="clients-reviews" id="reviews">
-      <div>
+      <div class="container">
         <h2>Clients reviews</h2>
         <ul>
           <li>
@@ -271,7 +291,7 @@
     </section>
     <!-- Newsletter -->
     <section class="newsletter">
-      <div>
+      <div class="container">
         <div>
           <form>
             <h2>Newsletter</h2>
@@ -298,65 +318,70 @@
         </div>
       </div>
     </section>
+    <!-- Footer -->
     <footer class="footer" id="contacts">
-      <a href="./index.html">
-        <svg width="128" height="17">
-          <use href="./images/icons.svg#icon-logo"></use>
-        </svg>
-      </a>
-      <nav>
-        <li>
-          <a href="#about-us">About us</a>
-        </li>
-        <li>
-          <a href="#our-products">Our products</a>
-        </li>
-        <li>
-          <a href="#price">Prices</a>
-        </li>
-        <li>
-          <a href="#bestsellers">Bestsellers</a>
-        </li>
-        <li>
-          <a href="#reviews">Reviews </a>
-        </li>
-      </nav>
-      <ul>
-        <li>
-          <a href="http://facebook.com">
-            <svg width="40" height="40">
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="http://instagram.com">
-            <svg width="40" height="40">
-              <use href="./images/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="http://youtube.com">
-            <svg width="40" height="40">
-              <use href="./images/icons.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-      <address>
-        Obolonsky Prospect, 14, Kyiv<br />
-        Daily 10:00-21:00<br />
-        <a href="tel:+380669384758">+380669384758</a>
-        <a href="tel:+380679384758">+380679384758</a>
-        <a href="mailto:minimal.furniture@gmail.com"
-          >minimal.furniture@gmail.com</a
-        >
-      </address>
-      <p>
-        By using this website, you agree to the Terms of Service and Privacy
-        Policy
-      </p>
+      <div class="container">
+        <a href="./index.html">
+          <svg width="128" height="17">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <nav>
+          <ul>
+            <li>
+              <a href="#about-us">About us</a>
+            </li>
+            <li>
+              <a href="#our-products">Our products</a>
+            </li>
+            <li>
+              <a href="#price">Prices</a>
+            </li>
+            <li>
+              <a href="#bestsellers">Bestsellers</a>
+            </li>
+            <li>
+              <a href="#reviews">Reviews </a>
+            </li>
+          </ul>
+        </nav>
+        <ul>
+          <li>
+            <a href="http://facebook.com">
+              <svg width="40" height="40">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="http://instagram.com">
+              <svg width="40" height="40">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="http://youtube.com">
+              <svg width="40" height="40">
+                <use href="./images/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <address>
+          Obolonsky Prospect, 14, Kyiv<br />
+          Daily 10:00-21:00<br />
+          <a href="tel:+380669384758">+380669384758</a>
+          <a href="tel:+380679384758">+380679384758</a>
+          <a href="mailto:minimal.furniture@gmail.com"
+            >minimal.furniture@gmail.com</a
+          >
+        </address>
+        <p>
+          By using this website, you agree to the Terms of Service and Privacy
+          Policy
+        </p>
+      </div>
     </footer>
   </body>
 </html>
