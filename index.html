@@ -359,35 +359,46 @@
               Every week we will send you new designs and information about
               sales.
             </p>
-            <label for="name" class="newsletter-label"></label>
-            <input
-              type="text"
-              placeholder="Name"
-              name="name"
-              id="name"
-              class="newsletter-input"
-            />
-            <label for="email" class="newsletter-label"></label>
-            <input
-              type="email"
-              placeholder="E-mail"
-              name="email"
-              id="email"
-              class="newsletter-input"
-            />
-            <label for="checkbox" class="newsletter-checkbox-label"
-              >Agree to subscribe to the newsletter</label
-            >
-            <input
-              type="checkbox"
-              name="checkbox"
-              id="checkbox"
-              class="newsletter-checkbox-input"
-            />
+            <div class="newsletter-box">
+              <label for="name" class="newsletter-label"></label>
+              <input
+                type="text"
+                placeholder="Name"
+                name="name"
+                id="name"
+                class="newsletter-input"
+              />
+            </div>
+            <div class="newsletter-box">
+              <label for="email" class="newsletter-label"></label>
+              <input
+                type="email"
+                placeholder="E-mail"
+                name="email"
+                id="email"
+                class="newsletter-input"
+              />
+            </div>
+            <div class="newsletter-checkbox-box">
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+                class="visually-hidden"
+              />
+              <label for="checkbox" class="newsletter-checkbox-label">
+                <span class="newsletter-checkbox">
+                  <svg width="13" height="13" class="newsletter-fill">
+                    <use href="./images/icons.svg#icon-check"></use>
+                  </svg>
+                </span>
+                Agree to subscribe to the newsletter</label
+              >
+            </div>
             <button type="button" class="newsletter-btn">Send</button>
           </form>
         </div>
-        <div class="newsletter-box">
+        <div class="newsletter-wrapper-img">
           <img
             src="./images/newsletter/product-14.png"
             alt="sofa"

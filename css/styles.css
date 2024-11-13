@@ -377,13 +377,36 @@ button {
   line-height: 150%;
   color: #d9d9d9;
 }
+.newsletter-box {
+  margin-bottom: 20.97px;
+}
+.newsletter-checkbox-box {
+  margin-bottom: 31.06px;
+}
+
+.newsletter-fill {
+  fill: transparent;
+}
 .newsletter-checkbox-label {
   font-size: 18px;
   line-height: 150%;
   color: #7a7a7a;
 }
-.newsletter-checkbox-input {
+
+.newsletter-checkbox {
+  display: inline-flex;
+  border: 1px solid #0a224a;
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
 }
+.visually-hidden:checked + .newsletter-checkbox-label .newsletter-checkbox {
+  background-color: #0a224a;
+  stroke: #fff;
+}
+
 .newsletter-btn {
   width: 224px;
   height: 51px;
@@ -394,9 +417,16 @@ button {
   padding: 0;
   border: none;
 }
-.newsletter-box {
+.newsletter-btn:hover {
+  background-color: #061835;
+}
+.newsletter-wrapper-img {
 }
 .newsletter-img {
 }
+
+/* #endregion */
+
+/* #region Footer */
 
 /* #endregion */
