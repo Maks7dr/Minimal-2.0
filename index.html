@@ -168,41 +168,61 @@
         <ul class="products-list">
           <li class="products-item">
             <img
+              srcset="
+                ./images/our-products/product-5.png 1x,
+                ./images/our-products/product-5.png 2x
+              "
               src="./images/our-products/product-5.png"
               alt="solutions"
               width="312"
               height="300"
               class="products-img"
+              onclick="openModal(this)"
             />
             <p class="text">Minimalist storage solutions</p>
           </li>
           <li class="products-item">
             <img
+              srcset="
+                ./images/our-products/product-6.png 1x,
+                ./images/our-products/product-6.png 2x
+              "
               src="./images/our-products/product-6.png"
               alt="seating"
               width="312"
               height="300"
               class="products-img"
+              onclick="openModal(this)"
             />
             <p class="text">Handcrafted minimalist seating</p>
           </li>
           <li class="products-item">
             <img
+              srcset="
+                ./images/our-products/product-7.png 1x,
+                ./images/our-products/product-7.png 2x
+              "
               src="./images/our-products/product-7.png"
               alt="table"
               width="312"
               height="300"
               class="products-img"
+              onclick="openModal(this)"
             />
             <p class="text">Sleek and simple tables</p>
           </li>
           <li class="products-item">
             <img
+              srcset="
+                ./images/our-products/product-8.png 1x,
+                ./images/our-products/product-8.png 2x
+              "
               src="./images/our-products/product-8.png"
               alt="chair"
               width="312"
               height="300"
               class="products-img"
+              onclick="openModal(this)"
             />
             <p class="text">Minimalist seating for every space</p>
           </li>
@@ -216,11 +236,16 @@
         <div class="bestsellers-wrapper">
           <div class="bestsellers-box">
             <img
+              srcset="
+                ./images/bestsellers/product-9.png 1x,
+                ./images/bestsellers/product-9.png 2x
+              "
               src="./images/bestsellers/product-9.png"
               alt="bad"
               width="536"
               height="489"
               class="bestsellers-img"
+              onclick="openModal(this)"
             />
             <p class="text bestsellers-bottom">The modern platform bed</p>
             <b class="text">750$</b>
@@ -229,22 +254,32 @@
             <ul class="bestsellers-list">
               <li class="bestsellers-item">
                 <img
+                  srcset="
+                    ./images/bestsellers/product-10.png 1x,
+                    ./images/bestsellers/product-10.png 2x
+                  "
                   src="./images/bestsellers/product-10.png"
                   alt="chair"
                   width="258"
                   height="193"
                   class="bestsellers-img"
+                  onclick="openModal(this)"
                 />
                 <p class="text bestsellers-bottom">The Cozy Lounge Chair</p>
                 <b class="text">230$</b>
               </li>
               <li class="bestsellers-item">
                 <img
+                  srcset="
+                    ./images/bestsellers/product-11.png 1x,
+                    ./images/bestsellers/product-11.png 2x
+                  "
                   src="./images/bestsellers/product-11.png"
                   alt="chair"
                   width="258"
                   height="193"
                   class="bestsellers-img"
+                  onclick="openModal(this)"
                 />
                 <p class="text bestsellers-bottom">
                   The industrial accent chair
@@ -253,22 +288,32 @@
               </li>
               <li class="bestsellers-item">
                 <img
+                  srcset="
+                    ./images/bestsellers/product-12.png 1x,
+                    ./images/bestsellers/product-12.png 2x
+                  "
                   src="./images/bestsellers/product-12.png"
                   alt="table"
                   width="258"
                   height="193"
                   class="bestsellers-img"
+                  onclick="openModal(this)"
                 />
                 <p class="text bestsellers-bottom">The sleek stand</p>
                 <b class="text">300$</b>
               </li>
               <li class="bestsellers-item">
                 <img
+                  srcset="
+                    ./images/bestsellers/product-13.png 1x,
+                    ./images/bestsellers/product-13.png 2x
+                  "
                   src="./images/bestsellers/product-13.png"
                   alt="sofa"
                   width="258"
                   height="193"
                   class="bestsellers-img"
+                  onclick="openModal(this)"
                 />
                 <p class="text bestsellers-bottom">The minimalist sofa</p>
                 <b class="text">650$</b>
@@ -480,5 +525,11 @@
         </p>
       </div>
     </footer>
+    <!-- Modal icon -->
+    <div id="modal" class="modal" onclick="closeModal()">
+      <span class="close">&times;</span>
+      <img id="modal-img" class="modal-content" />
+    </div>
+    <script href="./js/modal.js"></script>
   </body>
 </html>
