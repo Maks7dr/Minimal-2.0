@@ -90,13 +90,14 @@ button {
 }
 .logo {
 }
-.logo:hover .logo-fill {
-  fill: #061835;
-}
 .logo-fill {
   fill: #0a224a;
+  transition: fill 300ms ease-in-out;
 }
 
+.logo-fill:hover {
+  fill: #7a7a7a;
+}
 .header-nav {
   padding: 28px 0;
 }
@@ -104,10 +105,11 @@ button {
   display: flex;
   gap: 30px;
 }
-.header-nav-item {
+.header-nav-link {
+  transition: color 300ms ease-in-out;
 }
-.header-nav-item:hover {
-  color: #d9d9d9;
+.header-nav-link:hover {
+  color: #7a7a7a;
 }
 .header-nav-link {
 }
@@ -469,6 +471,10 @@ button {
 }
 .footer-logo-fill {
   fill: #fff;
+  transition: fill 300ms ease-in-out;
+}
+.footer-logo-fill:hover {
+  fill: #7a7a7a;
 }
 .footer-nav {
   margin-right: auto;
@@ -477,10 +483,12 @@ button {
   display: flex;
   gap: 30px;
 }
-.footer-nav-item {
-  color: #fff;
-}
 .footer-nav-link {
+  color: #fff;
+  transition: color 300ms ease-in-out;
+}
+.footer-nav-link:hover {
+  color: #7a7a7a;
 }
 .social-list {
   display: flex;
@@ -492,6 +500,10 @@ button {
 }
 .social-icon {
   fill: #fff;
+  transition: fill 300ms ease-in-out;
+}
+.social-icon:hover {
+  fill: #7a7a7a;
 }
 .address {
   display: flex;
@@ -511,11 +523,19 @@ button {
 }
 .address-link {
   display: block;
+  transition: color 300ms ease-in-out;
+}
+.address-link:hover {
+  color: #7a7a7a;
 }
 .address-link:not(:last-child) {
   margin-bottom: 24px;
 }
 .footer-email {
+  transition: color 300ms ease-in-out;
+}
+.footer-email:hover {
+  color: #7a7a7a;
 }
 
 .white {

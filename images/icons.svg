@@ -19,7 +19,7 @@
       <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3.692" d="M26.666 8 11.999 22.667 5.332 16"/>
     </symbol>
     <symbol id="icon-close" viewBox="0 0 13 13">
-<path d="M10.8332 3.25L4.87484 9.20833L2.1665 6.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M10.8332 3.25L4.87484 9.20833L2.1665 6.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
     </symbol>
   </defs>
 </svg>
