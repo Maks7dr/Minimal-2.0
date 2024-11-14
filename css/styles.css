@@ -367,7 +367,9 @@ button {
 }
 .newsletter-label {
   margin-bottom: 20.71px;
+  color: #0a224a;
 }
+
 .newsletter-input {
   border: 1px solid #b6b6b6;
   padding: 11px 20px;
@@ -375,8 +377,20 @@ button {
   height: 51.77px;
   font-size: 18px;
   line-height: 150%;
-  color: #d9d9d9;
+  color: #0a224a;
+  transition: color cubic-bezier(0.075, 0.82, 0.165, 1),
+    border-color cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+.newsletter-input:hover {
+  border-color: #0a224a;
+}
+.newsletter-input:hover::placeholder {
+  color: #0a224a;
+}
+.newsletter-input:invalid {
+  border-color: #e74a3b;
+}
+
 .newsletter-box {
   margin-bottom: 20.84px;
 }
