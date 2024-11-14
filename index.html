@@ -367,6 +367,7 @@
                 name="name"
                 id="name"
                 class="newsletter-input"
+                autofocus
               />
             </div>
             <div class="newsletter-box">
@@ -411,64 +412,70 @@
     </section>
     <!-- Footer -->
     <footer class="footer" id="contacts">
-      <div class="container">
-        <a href="./index.html">
-          <svg width="128" height="17">
-            <use href="./images/icons.svg#icon-logo"></use>
-          </svg>
-        </a>
-        <nav>
-          <ul>
-            <li>
-              <a href="#about-us">About us</a>
+      <div class="footer-container container">
+        <div class="footer-wrapper">
+          <a href="./index.html" class="footer-logo">
+            <svg width="128" height="17" class="footer-logo-fill">
+              <use href="./images/icons.svg#icon-logo"></use>
+            </svg>
+          </a>
+          <nav class="footer-nav">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a href="#about-us" class="footer-nav-link">About us</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#our-products" class="footer-nav-link">Our products</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#price" class="footer-nav-link">Prices</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#bestsellers" class="footer-nav-link">Bestsellers</a>
+              </li>
+              <li class="footer-nav-item">
+                <a href="#reviews" class="footer-nav-link">Reviews </a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="http://facebook.com" class="social-link">
+                <svg width="40" height="40" class="social-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a href="#our-products">Our products</a>
+            <li class="social-item">
+              <a href="http://instagram.com" class="social-link">
+                <svg width="40" height="40" class="social-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a href="#price">Prices</a>
-            </li>
-            <li>
-              <a href="#bestsellers">Bestsellers</a>
-            </li>
-            <li>
-              <a href="#reviews">Reviews </a>
+            <li class="social-item">
+              <a href="http://youtube.com" class="social-link">
+                <svg width="40" height="40" class="social-icon">
+                  <use href="./images/icons.svg#icon-youtube"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </nav>
-        <ul>
-          <li>
-            <a href="http://facebook.com">
-              <svg width="40" height="40">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="http://instagram.com">
-              <svg width="40" height="40">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="http://youtube.com">
-              <svg width="40" height="40">
-                <use href="./images/icons.svg#icon-youtube"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-        <address>
-          Obolonsky Prospect, 14, Kyiv<br />
-          Daily 10:00-21:00<br />
-          <a href="tel:+380669384758">+380669384758</a>
-          <a href="tel:+380679384758">+380679384758</a>
-          <a href="mailto:minimal.furniture@gmail.com"
-            >minimal.furniture@gmail.com</a
+        </div>
+        <address class="address">
+          <ul class="address-list">
+            <li class="address-item">Obolonsky Prospect, 14, Kyiv</li>
+            <li class="address-item">Daily 10:00-21:00</li>
+          </ul>
+          <div class="footer-tel">
+            <a href="tel:+380669384758" class="address-link">+380669384758</a>
+            <a href="tel:+380679384758" class="address-link">+380679384758</a>
+          </div>
+          <a href="mailto:minimal.furniture@gmail.com" class="footer-email">
+            minimal.furniture@gmail.com</a
           >
         </address>
-        <p>
+        <p class="text white">
           By using this website, you agree to the Terms of Service and Privacy
           Policy
         </p>

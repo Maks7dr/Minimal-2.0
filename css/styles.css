@@ -362,7 +362,7 @@ button {
   text-align: left;
 }
 .newsletter-text {
-  margin-bottom: 20.71px;
+  margin-bottom: 20.44px;
   width: 536px;
 }
 .newsletter-label {
@@ -372,13 +372,13 @@ button {
   border: 1px solid #b6b6b6;
   padding: 11px 20px;
   width: 536px;
-  height: 51px;
+  height: 51.77px;
   font-size: 18px;
   line-height: 150%;
   color: #d9d9d9;
 }
 .newsletter-box {
-  margin-bottom: 20.97px;
+  margin-bottom: 20.84px;
 }
 .newsletter-checkbox-box {
   margin-bottom: 31.06px;
@@ -409,7 +409,7 @@ button {
 
 .newsletter-btn {
   width: 224px;
-  height: 51px;
+  height: 51.77px;
   font-size: 18px;
   line-height: 133%;
   background-color: #0a224a;
@@ -429,4 +429,73 @@ button {
 
 /* #region Footer */
 
+.footer {
+  background-color: #0a224a;
+}
+.footer-container {
+  padding: 36px 0;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.footer-logo {
+  margin-right: 209px;
+}
+.footer-logo-fill {
+  fill: #fff;
+}
+.footer-nav {
+  margin-right: auto;
+}
+.footer-nav-list {
+  display: flex;
+  gap: 30px;
+}
+.footer-nav-item {
+  color: #fff;
+}
+.footer-nav-link {
+}
+.social-list {
+  display: flex;
+  gap: 30px;
+}
+.social-item {
+}
+.social-link {
+}
+.social-icon {
+  fill: #fff;
+}
+.address {
+  display: flex;
+  color: #fff;
+  font-size: 19px;
+  letter-spacing: 0.01em;
+  margin-bottom: 35px;
+}
+.address-list {
+  margin-right: 87px;
+}
+.address-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+.footer-tel {
+  margin-right: 82px;
+}
+.address-link {
+  display: block;
+}
+.address-link:not(:last-child) {
+  margin-bottom: 24px;
+}
+.footer-email {
+}
+
+.white {
+  color: #fff;
+  text-align: center;
+}
 /* #endregion */
