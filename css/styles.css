@@ -95,7 +95,7 @@ button {
 
 @media screen and (min-width: 1400px) {
   .container {
-    width: 1400px;
+    width: 1440px;
     padding: 0 60px;
   }
 }
@@ -185,20 +185,19 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hero-container {
-}
+
 .hero-title {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
   width: 285px;
   font-size: 28px;
   line-height: 150%;
   margin-bottom: 14px;
+  text-transform: uppercase;
 }
 .hero-box {
 }
-.hero-img {
-  display: none;
-}
-.hero-img-1 {
+.hero-wrapper {
   display: none;
 }
 .hero-img-2 {
@@ -220,8 +219,65 @@ button {
   .hero {
     padding-top: 64px;
     padding-bottom: 100px;
-    background-color: #fff;
     background-image: none;
+  }
+  .hero-container {
+    position: relative;
+  }
+  .hero-wrapper {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 32px;
+    align-items: end;
+  }
+  .hero-img {
+    width: 308px;
+  }
+  .hero-img-1 {
+    display: block;
+    width: 367px;
+    object-fit: cover;
+    object-position: left;
+  }
+  .hero-box {
+    width: 308px;
+  }
+
+  .hero-title {
+    position: absolute;
+    left: 32px;
+    top: 0;
+    width: 648px;
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+  .text-btn {
+    margin-top: 30px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-container {
+    display: flex;
+    gap: 25px;
+  }
+  .hero-title {
+    left: 60px;
+    top: 0;
+  }
+  .hero-wrapper {
+    gap: 25px;
+    margin-bottom: 0;
+  }
+  .hero-img {
+    width: 310px;
+  }
+  .hero-img-1 {
+    width: 648px;
+  }
+  .hero-img-2 {
+    display: block;
+    margin-bottom: 59px;
   }
 }
 
