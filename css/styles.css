@@ -216,8 +216,6 @@ button {
   justify-content: center;
   height: 100%;
 }
-.menu-nav {
-}
 .menu-nav-list {
   display: flex;
   flex-direction: column;
@@ -229,6 +227,7 @@ button {
   height: 245px;
   align-items: center;
 }
+
 @media screen and (min-width: 768px) {
   .mobile-menu-container {
     padding-top: 150px;
