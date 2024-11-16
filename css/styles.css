@@ -981,6 +981,12 @@ button {
     flex-direction: row;
     gap: 30px;
   }
+  .footer-logo-fill {
+    transition: fill 300ms ease-in-out;
+  }
+  .footer-logo-fill:hover {
+    fill: #7a7a7a;
+  }
   .social-icon {
     transition: fill 300ms ease-in-out;
   }
