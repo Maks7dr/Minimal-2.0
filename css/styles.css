@@ -568,6 +568,15 @@ button {
     transform: scale(1.07);
     cursor: pointer;
   }
+  .bestsellers-img-item {
+    transition: transform 0.3s ease;
+    width: 536px;
+    height: 489px;
+  }
+  .bestsellers-img-item:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+  }
   .bestsellers-list {
     row-gap: 30px;
     column-gap: 20px;
