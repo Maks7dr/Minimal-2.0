@@ -282,3 +282,63 @@ button {
 }
 
 /* #endregion */
+
+/* #region About us */
+
+.about-us {
+  padding-top: 64px;
+  background-color: #f7faff;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+}
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.about-title {
+  display: flex;
+  align-items: center;
+  line-height: 150%;
+}
+.about-title-left {
+  text-align: left;
+}
+.about-title::before {
+  border: 1px solid #0a224a;
+  width: 30px;
+  height: 0px;
+  content: "";
+  margin-right: 20px;
+}
+.about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.about-item {
+  width: 170px;
+}
+.about-text {
+  font-size: 50px;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.about-center {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .about-us {
+    padding-top: 0;
+    padding-bottom: 100px;
+    background-color: transparent;
+  }
+}
+/* #endregion */
